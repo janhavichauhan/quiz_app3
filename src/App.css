@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(59,46,127);
+}
+
+.body {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  margin-top: 15%;
+}
+
+.que {
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+}
+
+.opt-body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.option {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(30,161,241);
+  color: #fff;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.buttons {
+  margin-top: 20px;
+  background-color: #f0f0f0;
+}
+
+.Previous,
+.Next,
+.Quit,
+.Finish {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.Previous {
+  background-color: rgb(62, 126, 170);
+}
+
+.Next {
+  background-color: rgb(0, 128, 1);
+}
+
+.Quit {
+  background-color: rgb(255, 0, 0);
+}
+
+.Finish {
+  background-color: rgb(0, 0, 255);
+}
+
+.Previous:hover,
+.Next:hover,
+.Quit:hover,
+.Finish:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: black;
+  background-color: #f0f0f0;
+}
+
+
+.results-container {
+  max-width: 800px;
+  margin-top: 15%;
+  margin-left: 20%;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.results-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+}
+
+.results-info {
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+}
+
+.results-link:hover {
+  background-color:green;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.results-link {
+  padding: 10px 20px;
+  margin: 20px 10px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color:rgb(60, 242, 60);
+  color: #000;
+  border: 2px solid #000;
+}
+
+.starting-title {
+  font-size: 70px;
+  margin-bottom: 10px;
+  margin-top: 300px;
+  
+}
+
+.start-link {
+  padding: 10px 20px;
+  margin: 20px 10px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color:rgb(60, 242, 60);
+  color: #000;
+  border: 2px solid #000;
+}
+
+.starting-container {
+  max-width: 800px;
+  height: 60vh;
+  margin-top: 15%;
+  margin-left: 20%;
+  text-align: center;
+
+}
+ 
